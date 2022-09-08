@@ -1,7 +1,7 @@
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket = "cameron30-s3-bucket"
+  bucket = "igor2-s3-bucket"
   acl    = "private"
 
   versioning = {

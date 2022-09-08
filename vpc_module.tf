@@ -1,7 +1,7 @@
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
-  name = "cameron3-vpc"
+  name = "igor2-vpc"
   cidr = "10.0.0.0/16"
 
   enable_nat_gateway = true
